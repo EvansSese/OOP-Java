@@ -1,3 +1,5 @@
+package inheritance;
+
 // declare user class
 public class User {
     // declare class properties

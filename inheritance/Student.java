@@ -1,3 +1,5 @@
+package inheritance;
+
 //declare Student class to inherit from User class
 public class Student extends User {
     boolean has_scholarship;
