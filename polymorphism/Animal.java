@@ -18,14 +18,20 @@ public class Animal {
     }
 }
 
+// create subclass Dog to extend Animal
 class Dog extends Animal {
+
+    // override the make_sound method
     @Override
     public void make_sound() {
         System.out.println("Dog barks");
     }
 }
 
+// create subclass Snake to extend Animal
 class Snake extends Animal {
+
+    // override the make_sound method
     @Override
     public void make_sound() {
         System.out.println("Snake hisses");
