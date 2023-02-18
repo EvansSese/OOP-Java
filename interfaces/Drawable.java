@@ -23,9 +23,13 @@ class Square implements Drawable {
     }
 }
 
+// invoke main method inside main class
 class Main {
     public static void main(String[] args) {
+
+        // create circle object
         Drawable circle = new Circle();
+        // create square object
         Drawable square = new Square();
 
         circle.draw();
